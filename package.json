@@ -1,0 +1,20 @@
+{
+  "name": "a2z",
+  "version": "1.0.0",
+  "description": "A2Z Home Inspection & Repair Website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "./node_modules/.bin/sass --watch main.scss output.css",
+    "browser-sync": "./node_modules/.bin/browser-sync start --server --files output.css",
+    "dev": "./node_modules/.bin/concurrently \"npm run sass\" \"npm run browser-sync\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "browser-sync": "^2.26.3",
+    "concurrently": "^4.1.0",
+    "sass": "^1.15.2"
+  }
+}
