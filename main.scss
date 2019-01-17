@@ -1,0 +1,70 @@
+//Google Fonts
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+
+//font variables
+$NewsCycle:'News Cycle', sans-serif;
+
+//Variable Overrides
+body {
+  font-family: 'NewsCycle';
+  background-image: url("images/lumber.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-brand {
+  font-size: 45px !important;
+}
+
+
+
+
+//color variables
+$darkblue: #0c1b89;
+$kellygreen: #1b890c;
+$butter: #fdfab4;
+$gray: #777777;
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$blue:    #007bff;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #e83e8c;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #28a745;
+$teal:    #20c997;
+$cyan:    #17a2b8;
+
+$primary:       $darkblue;
+$secondary:     $gray;
+$success:       $kellygreen;
+$warning:       $butter;
+$light:         $gray-100;
+$dark:          $gray-800;
+//style variables
+
+
+
+
+
+
+
+
+
+
+
+
+//Bootstrap and it's default Overrides
+@import "./node_modules/bootstrap/scss/bootstrap";
