@@ -7,15 +7,10 @@ $NewsCycle:'News Cycle', sans-serif;
 //Variable Overrides
 body {
   font-family: 'NewsCycle';
-  background-image: url("images/lumber.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .navbar-brand {
-  font-size: 45px !important;
+  font-size: 35px !important;
 }
-
-
 
 
 //color variables
@@ -53,7 +48,18 @@ $success:       $kellygreen;
 $warning:       $butter;
 $light:         $gray-100;
 $dark:          $gray-800;
+
 //style variables
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $primary;
+  color: white;
+  text-align: center;
+}
 
 
 

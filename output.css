@@ -2,13 +2,20 @@
 @import url("https://fonts.googleapis.com/css?family=News+Cycle");
 body {
   font-family: "NewsCycle";
-  background-image: url("images/lumber.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .navbar-brand {
-  font-size: 45px !important;
+  font-size: 35px !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0c1b89;
+  color: white;
+  text-align: center;
 }
 
 /*!

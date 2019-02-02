@@ -11,10 +11,9 @@
     <title>A2Z Home Inspection & Repair</title>
   </head>
   <body>
-    <!-- Image and text -->
     <nav class="navbar navbar-dark bg-success">
       <a class="navbar-brand text-primary" href="index.html">
-        <img src="images/logo.jpg" width="70" height="70" class="align-top" alt="">
+        <img src="images/logo.jpg" width="70" height="70" class="align-middle" alt="A2Z Logo">
         A2Z Home Inspection & Repair
       </a>
         <ul class="nav justify-content-end">
@@ -30,22 +29,23 @@
       </ul>
     </nav>
 
-    <div class="container">
-      <div class="row mt-5">
-        <div class="col">
-          <img src="images/logo.jpg" width="500" height="500">
-        </div>
-        <div class="col">
-          <h2 class="mb-3">Complete Inspections from A2Z</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porta est risus, nec pretium dui condimentum sit amet. Mauris consequat nisi sit amet augue malesuada, laoreet maximus enim imperdiet. In sed elementum ligula, quis pretium mi. Ut a vestibulum ipsum, vel consectetur elit. Fusce imperdiet, massa at interdum tincidunt, purus lacus eleifend mauris, eu condimentum nibh justo eget ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        </div>
-      </div>
-    </div>
+    <form method="post" action="contact.php">
+        <label>Name:</label>
+        <input name="sender" class="form-control">
+        <br>
+        <label>Email address:</label>
+        <input name="senderEmail" class="form-control">
+        <br>
+        <label>Message:</label>
+        <textarea rows="5" cols="20" name="message" class="form-control"></textarea>
+        <br>
+        <input type="submit" name="submit" class="form-control submit">
+    </form>
 
 
-    <div class="footer">
-      <p>A2Z Home Inspection and Repair <br>Michael Mitchell</p>
-    </div>
+
+
+
 
 
 
