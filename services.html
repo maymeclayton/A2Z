@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="output.css">
 
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+
     <title>A2Z Home Inspection & Repair</title>
   </head>
+
   <body>
+    <!-- Image and text -->
     <nav class="navbar navbar-dark bg-primary">
       <a class="navbar-brand text-white" href="index.html">
         <img src="images/logo.jpg" width="70" height="70" class="align-top" alt="">
@@ -39,30 +43,43 @@
       </ul>
     </nav>
 
-    <form name="contactform" method="post" action="send_form_email.php">
-      <label for="first_name">First Name *</label>
-      <input type="text" name="first_name" maxlength="50" size="30">
-      <br>
-      <label for="last_name">Last Name *</label>
-      <input type="text" name="last_name" maxlength="50" size="30">
-      <br>
-      <label for="email">Email Address *</label>
-      <input type="text" name="email" maxlength="80" size="30">
-      <br>
-      <label for="telephone">Telephone Number</label>
-      <input type="text" name="telephone" maxlength="30" size="30">
-      <br>
-      <label for="comments">Comments *</label>
-      <textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-      <br>
-      <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
-    </form>
+    <div class="container">
+      <h1 class="mt-3">Our Services</h1>
+        <h3>Home Inspections:</h3>
+          <p>Thorough home inspections for peace of mind when buying a home. Fully licensed and insured.</p>
+        <h3>Interior Home Repair and Remodeling:</h3>
+          <p>We can tackle most any project around the home:</p>
+            <ul>
+              <li>Flooring</li>
+              <li>Painting</li>
+              <li>Bath Remodels</li>
+              <li>Tile Backsplashes</li>
+              <li>Kitchen and Bath fixtures</li>
+              <li>Appliance Installation</li>
+              <li>Lighting</li>
+              <li>Painting</li>
+              <li>and so much more</li>
+            </ul>
+        <h3>Annual Home Maintenance Checkup</h3>
+          <p>Yearly checkup of your home and the components that make it work can help prolong the life of home systems and help ensure that your home stays in great condition for the long haul.</p>
+        <h3>Exterior Work</h3>
+          <p>Let us tackle your exterior jobs too:</p>
+            <ul>
+              <li>Decks</li>
+              <li>Fencing</li>
+              <li>Painting</li>
+              <li>Staining</li>
+              <li>Lighting</li>
+              <li>Pressure Washing</li>
+              <li>Gutter Cleaning</li>
+              <li>and more</li>
+            </ul>
+      </div>
 
 
-
-
-
-
+    <div class="footer mt-5">
+      <p>A2Z Home Inspection and Repair <br>Michael Mitchell</p>
+    </div>
 
 
     <!-- Optional JavaScript -->

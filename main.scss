@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
 //font variables
-$NewsCycle:'News Cycle', sans-serif;
+$NewsCycle: 'News Cycle', sans-serif;
 
 //Variable Overrides
-body {
-  font-family: 'NewsCycle';
-}
+
+$font-family-sans-serif: 'News Cycle';
+
 .navbar-brand {
   font-size: 35px !important;
 }
 
 
 //color variables
-$darkblue: #0c1b89;
+$darkblue: #0E1B8B;
 $kellygreen: #1b890c;
 $butter: #fdfab4;
 $gray: #777777;
@@ -60,6 +60,7 @@ $dark:          $gray-800;
   color: white;
   text-align: center;
 }
+
 
 
 
