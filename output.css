@@ -4,6 +4,10 @@
   font-size: 35px !important;
 }
 
+.nav-item {
+  font-size: 25px;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/couple-home-house-1288482.jpg");
   background-color: #cccccc;
@@ -21,16 +25,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #0E1B8B;
-  color: white;
-  text-align: center;
 }
 
 /*!
