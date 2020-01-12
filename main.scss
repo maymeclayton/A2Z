@@ -4,7 +4,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
 }
 
 //font variables
@@ -49,6 +48,7 @@ $font-family-sans-serif: 'News Cycle';
 #bottom-widget {
   overflow: hidden;
 }
+
 ul.social-network {
 	margin: 0;
 	margin-left:0;
@@ -63,6 +63,11 @@ ul.social-network li {
 .home-section {
 	width: 100%;
 	padding: 150px 0px 150px 0px;
+}
+
+.footer .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 //color variables
