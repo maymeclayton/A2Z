@@ -1,6 +1,12 @@
 //Google Fonts
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+
 //font variables
 $NewsCycle: 'News Cycle', sans-serif;
 
