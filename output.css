@@ -59,9 +59,19 @@ ul.social-network li {
   padding: 150px 0px 150px 0px;
 }
 
+.footer a:hover {
+  color: #495057;
+  text-decoration: none;
+}
+
 .footer .row {
   margin-left: 0;
   margin-right: 0;
+  display: block;
+}
+
+.footer a {
+  color: white;
 }
 
 /*!
