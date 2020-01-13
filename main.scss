@@ -17,6 +17,10 @@ $font-family-sans-serif: 'News Cycle';
   height: 30px;
   background-color: gray;
   color: white;
+
+  @media (max-width: 767.98px) {
+    font-size: 11px;
+  }
 }
 
 .navbar-brand {
@@ -71,7 +75,7 @@ ul.social-network li {
     color: #495057;
     text-decoration: none;
   }
-  
+
 }
 
 .footer .row {
