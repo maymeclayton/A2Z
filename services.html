@@ -10,9 +10,13 @@
     <link rel="stylesheet" href="output.css">
 
     <title>A2Z Home Inspection & Repair</title>
+
   </head>
 
   <body>
+    <div class="header">
+        <p class="text-center">Call us at <a href="tel:502-330-1233">1-502-330-1233</a> to schedule your professional home inspection today!</p>
+    </div>
     <!-- Image and text -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
       <a class="navbar-brand" href="index.html"><img src="images/logosvg.svg" width="75px" height="75px" alt=""></a>
@@ -20,7 +24,7 @@
       <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
           </li>
@@ -37,13 +41,9 @@
       </div>
       </nav>
 
-  <div class="container">
+  <div class="container mt-3">
     <h1>Services</h1>
-      <div class="row">
-        <div class="col md-6">test</div>
-        <div class="col md-6">test</div>
-      </div>
-    </div>
+  </div>
 
     <div class="container mb-5">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -92,76 +92,88 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+</div>
 
+<div class="accordion mt-5 mb-5 container" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h2>Home Inspections</h2>
+        </button>
+      </h2>
+    </div>
 
-
-        <div class="row">
-          <div class="col">
-            <div class="card mt-5 h-100">
-              <div class="card-body">
-                <h5 class="card-title">Home Inspections</h5>
-                <p class="card-text">Thorough home inspections for peace of mind when buying a home. Fully licensed and insured.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mt-5 h-100">
-              <div class="card-body">
-                <h5 class="card-title">Annual Home Maintenance Checkup</h5>
-                <p class="card-text">Yearly checkup of your home and the components that make it work can help prolong the life of home systems and help ensure that your home stays in great condition for the long haul.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col mb-5">
-            <div class="card mt-5 h-100">
-              <div class="card-body">
-                <h5 class="card-title">Interior Home Repair and Remodeling</h5>
-                <h6 class="card-subtitle mb-2 text-muted">We can tackle most any project around the home</h6>
-                  <ul>
-                    <li>Flooring</li>
-                    <li>Painting</li>
-                    <li>Bath Remodels</li>
-                    <li>Tile Backsplashes</li>
-                    <li>Kitchen and Bath fixtures</li>
-                    <li>Appliance Installation</li>
-                    <li>Lighting</li>
-                    <li>Painting</li>
-                    <li>and so much more</li>
-                  </ul>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="card mt-5 h-100">
-              <div class="card-body">
-                <h5 class="card-title">Exterior Work</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Let us tackle your exterior jobs too</h6>
-                <ul>
-                  <li>Decks</li>
-                  <li>Fencing</li>
-                  <li>Painting</li>
-                  <li>Staining</li>
-                  <li>Lighting</li>
-                  <li>Pressure Washing</li>
-                  <li>Gutter Cleaning</li>
-                  <li>and more</li>
-                </ul>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Thorough home inspections for peace of mind when buying a home. Fully licensed and insured.
       </div>
-
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h2>Annual Home Maintenance Checkup</h2>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Yearly checkup of your home and the components that make it work can help prolong the life of home systems and help ensure that your home stays in great condition for the long haul.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h2>Interior Home Repair and Remodeling</h2>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        We can tackle almost any project around the home.
+        <ul class="ml-5">
+          <li>Flooring</li>
+          <li>Painting</li>
+          <li>Bath Remodels</li>
+          <li>Tile Backsplashes</li>
+          <li>Kitchen and Bath fixtures</li>
+          <li>Appliance Installation</li>
+          <li>Lighting</li>
+          <li>Painting</li>
+          <li>and so much more</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <h2>Exterior Work</h2>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        Let us tackle your external jobs too!
+        <ul class="ml-5">
+          <li>Decks</li>
+          <li>Fencing</li>
+          <li>Painting</li>
+          <li>Staining</li>
+          <li>Lighting</li>
+          <li>Pressure Washing</li>
+          <li>Gutter Cleaning</li>
+          <li>and more</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
       <div class="footer sticky bg-primary text-white text-center">
           <div class="row">
@@ -184,11 +196,9 @@
         </div>
       </div>
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="js/wow.min.js"></script>
+    </body>
 </html>
